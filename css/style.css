@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+*{margin: 0;
+padding: 0;
+font-family: 'Mate SC', serif;}
+
+
+header{
+    background-color: #D8CAA4;
+    display: flex;
+justify-content: space-around; 
+padding-top: 20px;
+
+}
+
+
+
+
+a{ color:#5a3920;
+    text-decoration: none;
+    font-size: 20px;
+
+   
+}
+
+nav a{ 
+    margin-left: 100px;
+color:#5a3920;}
+
+/*containerhero*/
+
+.containerhero{
+background-image: url('fondohero1.jpg'); 
+height: 90vh; 
+background-size: cover;
+padding-left: 100px;
+padding-right: 100px;
+padding-bottom: 50px; }
+
+.hero{text-align: center; }
+.hero h1{font-size:70px; padding-top: 140px; color: #e1b560;}
+.hero p{font-size: 20px; padding-top: 40px; padding-bottom: 40px; color: white;}
+.hero .herobtn{font-size: 20px;
+background-color:  #e1b560;
+color: #5a3920;
+padding-left: 50px;
+padding-right: 50px; 
+border-radius: 50px;}
+
+
+
+/*containerabout*/
+.about{ display: flex; align-items: center; justify-content: center;
+margin-left: 200px; margin-right: 200px; margin-top: 50px;}
+
+.aboutimg{margin-right: 100px;} 
+.aboutinf{color:#5a3920;}
+.aboutinf h1{margin-bottom: 30px;}
+.aboutinf p{margin-bottom: 20px;}
+.about .aboutbtn{font-size: 20px;
+    background-color:  #e1b560;
+    color: #5a3920;
+    padding-left: 50px;
+    padding-right: 50px;
+border-radius: 50px; }
+
+/*containeralways*/
+.always{display: flex; align-items: center; justify-content: center;
+    margin-left: 200px; margin-right: 200px; margin-top: 100px;}
+
+    .alwaysimg{margin-left: 100px;} 
+    .alwaysinf{color:#5a3920;}
+    .alwaysinf h1{margin-bottom: 30px;}
+    .alwaysinf p{margin-bottom: 20px;}
+    .always .alwaysbtn{font-size: 20px;
+        background-color:  #e1b560;
+        color: #5a3920;
+        padding-left: 50px;
+        padding-right: 50px; 
+    border-radius: 50px;}
+    
+
+/*containerproducts*/
+
+
+.products{display: flex; align-items: center; justify-content: center;
+background-color: #D8CAA4;
+color: #5a3920;}
+
+
+/*containercard*/
+.containercard{width: 100%; 
+display: flex;
+
+background-color:  #D8CAA4;
+}
+
+.card{ width: 100%;
+margin: 70px;
+border-radius: 6px;
+overflow: hidden; 
+background-color: white;
+color:#5a3920;
+box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+cursor: default;
+transition: all 400ms ease;}
+.card:hover{ box-shadow: 5px 5px 20px rgba(0,0,0,0.4);}
+.containercard .card{padding: 15px;
+text-align: center;}
+.card img{ width: 100%; height: 260px;}
+
+
+
+/*containercontact*/
+.containercontact{ margin:0px; padding: 0px; 
+    background-image: url('fondocontact.jpg'); 
+    height: 100vh; 
+    background-size: cover;}
+    .contact-form{ width: 85%; max-width: 500px; background-color: #D8CAA4;
+        position: absolute; 
+        margin-top: 200px;
+        margin-left: 700px;
+        transform: translate(-10%, -20%);
+        box-sizing: border-box;
+        border-radius: 8px;
+        text-align: center;}
+
+    .contact-form h1{margin-top: 30px;
+    font-weight: 200;}
+    .txtb{border: 1px solid gray; 
+    margin: 8px 0;
+    padding: 12px 18px;
+border-radius: 8px;}
+
+.txtb label{ display: block;
+text-align: left;
+color: #5a3920;
+text-transform: uppercase;
+font-size: 14px;}
+
+.txtb input,.txtb textarea{width: 100%; border: none;
+background: none; outline: none; font-size: 18px;
+margin-top: 6px;
+}
+
+.btn{ display: block; background-color: #e1b560;
+color: #5a3920;
+padding: 14px 0;
+text-transform: uppercase;
+cursor: pointer;
+margin-top: 8px;
+width: 100%;}
+    
+
+.footer{background-color: #D8CAA4;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 500px;
+    display: flex;
+    color:  #5a3920;}
